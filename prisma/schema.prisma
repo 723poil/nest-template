@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator kysely {
+  provider     = "prisma-kysely"
+  output       = "../src/kysely"
+  fileName     = "types.ts"
+  enumFileName = "enums.ts"
+  camelCase = false
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DB_URL")
+}
