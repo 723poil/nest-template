@@ -1,18 +1,25 @@
-import { Inject, Injectable } from "@nestjs/common";
-import { PrismaClient } from "@prisma/client";
+import { Injectable } from "@nestjs/common";
 import { Kysely } from "kysely";
-import { bk_goods, DB } from "./kysely/types";
+import { DB } from "./kysely/types";
+import { PrismaService } from "./config/database/prisma.service";
+import { KyselyService } from "./config/database/kysely.service";
+import { PartialType } from "@nestjs/swagger";
 
 @Injectable()
 export class AppService {
+  private db: Kysely<DB>;
+
   constructor(
-    private readonly prisma: PrismaClient,
-    @Inject("KyselyInstance")
-    private readonly kysely: Kysely<DB>,
-  ) {}
+    private readonly prismaService: PrismaService,
+    private readonly kyselyService: KyselyService,
+  ) {
+    this.db = kyselyService.getDb();
+  }
 
   async getHello(): Promise<string> {
-    console.log(await this.kysely.selectFrom("tb_ad_area as ad").selectAll().execute());
+    console.log(await this.db.selectFrom("tb_ad_area as ad").selectAll().execute());
     return "Hello World!";
   }
 }
+
+PartialType;

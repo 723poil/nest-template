@@ -7,6 +7,7 @@ import { PrometheusInterceptor } from "./lifecycle/interceptor/prometheus/promet
 import { LoggerMiddleware } from "./lifecycle/middleware/logger/logger.middleware";
 import { AllExceptionFilter } from "./lifecycle/filter/exception/exception.filter";
 import { DatabaseModule } from "./config/database/database.module";
+import { UnitTestModule } from "./api/unit-test/unit-test.module";
 
 @Module({
   imports: [
@@ -15,6 +16,8 @@ import { DatabaseModule } from "./config/database/database.module";
       envFilePath: `${process.env.MODE}.env`,
     }),
     DatabaseModule,
+
+    UnitTestModule,
   ],
   controllers: [AppController],
   providers: [
