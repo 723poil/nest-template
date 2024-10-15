@@ -1,12 +1,15 @@
-import { Controller, Get } from "@nestjs/common";
+import { Controller, Get, Res } from "@nestjs/common";
 import { AppService } from "./app.service";
+import { Response } from "express";
 
-@Controller()
+@Controller({
+  version: "",
+})
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  async getHello(): Promise<string> {
-    return await this.appService.getHello();
+  @Get("favicon.ico")
+  faviconIco(@Res() res: Response) {
+    res.status(204).send();
   }
 }

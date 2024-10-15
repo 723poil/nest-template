@@ -1,0 +1,13 @@
+export const notFoundConst = {
+  NO_DATA: "0201",
+  NO_CUSTOMER: "0202",
+  NO_ORDER: "0203",
+  NO_SOCIAL: "0204",
+  NO_NOTICE: "0205",
+  NO_STORE: "0206",
+
+  NO_FRANCHISE_BRAND: "0208",
+  NO_COUPON_ISSUED: "0209",
+  NO_COUPON: "0210",
+  NO_STAMP: "0211",
+};

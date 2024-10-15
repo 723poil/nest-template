@@ -1,17 +1,24 @@
+import { VersioningType } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
 import { AppModule } from "./app.module";
-import { winstonLogger } from "./config/logger/winton.logger";
-import { setNestAppInterceptors } from "./lifecycle/interceptor/setup.interceptor";
-import { setNestAppPipes } from "./config/pipe/setup.pipe";
-import { setNestSwagger } from "./config/swagger/setup.swagger";
-import { VersioningType } from "@nestjs/common";
+import { setNestAppInterceptors } from "./core/interceptors/setup.interceptor";
+import { winstonLogger } from "./core/logger/winston.logger";
+import { setNestAppPipes } from "./core/pipe/setup.pipe";
+import { setNestSwagger } from "./core/swagger/setup.swagger";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: winstonLogger,
   });
 
-  app.enableCors();
+  app.enableCors({
+    origin: "*",
+    methods: "GET, HEAD, PUT, PATCH, POST, DELETE",
+    preflightContinue: false,
+    maxAge: 86400,
+    credentials: true,
+  });
+
   app.enableVersioning({
     type: VersioningType.URI,
     defaultVersion: "1",
