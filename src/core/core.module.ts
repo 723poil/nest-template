@@ -6,7 +6,7 @@ import { LoggerMiddleware } from "src/core/middlewares/logger/logger.middleware"
 import { DatabaseModule } from "./database/database.module";
 import { PrometheusInterceptor } from "./interceptors/prometheus/prometheus.interceptor";
 import { AllExceptionFilter } from "./filters/exception/exception.filter";
-import { TransactionMiddleware } from "./middlewares/transaction/transaction.middleware";
+import { StorageMiddleware } from "./middlewares/storage/storage.middleware";
 
 const configModule = ConfigModule.forRoot({
   isGlobal: true,
@@ -34,6 +34,6 @@ const providers = [
 })
 export class CoreModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
-    consumer.apply(LoggerMiddleware, TransactionMiddleware).forRoutes("*");
+    consumer.apply(StorageMiddleware, LoggerMiddleware).forRoutes("*");
   }
 }

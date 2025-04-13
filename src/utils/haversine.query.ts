@@ -1,5 +1,5 @@
 import { ExpressionBuilder, ExpressionWrapper, FunctionModule } from "kysely";
-import { Gps } from "../base-dto/gps";
+import { Gps } from "../common/base-dto/gps";
 
 export const calculateDistance = (
   eb: ExpressionBuilder<any, any>,

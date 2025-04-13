@@ -1,9 +1,9 @@
 import { Injectable, NestMiddleware } from "@nestjs/common";
 import { NextFunction, Request, Response } from "express";
-import { winstonLogger } from "src/core/logger/winston.logger";
+import { BaseComponent } from "src/core/base/base.component";
 
 @Injectable()
-export class LoggerMiddleware implements NestMiddleware {
+export class LoggerMiddleware extends BaseComponent implements NestMiddleware {
   use(request: Request, response: Response, next: NextFunction): void {
     const { ip, method, originalUrl } = request;
     const userAgent = request.get("user-agent") || "";
@@ -11,7 +11,7 @@ export class LoggerMiddleware implements NestMiddleware {
     const startTime: number = new Date().getTime();
 
     if (!originalUrl.endsWith("metrics") && process.env.MODE !== "test") {
-      winstonLogger.log(`${method}:Req ${originalUrl} - ${userAgent} ${ip}`);
+      this.info(`${method}:Req ${originalUrl} - ${userAgent} ${ip}`);
     }
 
     response.on("finish", () => {
@@ -19,23 +19,23 @@ export class LoggerMiddleware implements NestMiddleware {
       const { statusCode } = response;
       const contentLength = response.get("content-length");
 
-      if (process.env.MODE !== "test") {
-        if (statusCode >= 400 && statusCode < 500) {
-          winstonLogger.warn(
-            `${method}:Res ${originalUrl} ${statusCode} ${contentLength} - ${userAgent} ${ip} elapsedTime: ${elapsedTime}`,
-          );
-        } else if (statusCode >= 500) {
-          winstonLogger.error(
-            `${method}:Res ${originalUrl} ${statusCode} ${contentLength} - ${userAgent} ${ip} elapsedTime: ${elapsedTime}`,
-          );
-        } else {
-          if (!originalUrl.endsWith("metrics")) {
-            winstonLogger.log(
-              `${method}:Res ${originalUrl} ${statusCode} ${contentLength} - ${userAgent} ${ip} elapsedTime: ${elapsedTime}`,
-            );
-          }
-        }
+      const message: string = `${method}:Res ${originalUrl} ${statusCode} ${contentLength} - ${userAgent} ${ip} elapsedTime: ${elapsedTime}`;
+
+      if (process.env.MODE === "test") return;
+
+      if (originalUrl.endsWith("metrics")) return;
+
+      if (statusCode >= 500) {
+        this.error(message);
+        return;
       }
+
+      if (statusCode >= 400) {
+        this.warn(message);
+        return;
+      }
+
+      this.info(message);
     });
 
     next();

@@ -1,11 +1,11 @@
 import { Injectable } from "@nestjs/common";
 import { isEmpty } from "class-validator";
 import { Kysely } from "kysely";
-import { KYSELY_TRANSACTION_MANAGER } from "src/core/async-local-storage/transaction.const";
-import { transactionStorage } from "src/core/async-local-storage/transaction.storage";
+import { asyncLocalStorage } from "src/core/async-local-storage/async.local.storage";
+import { STORAGE_CONST } from "src/core/async-local-storage/storage.const";
 import { UnhandledException } from "src/core/exception/exceptions/internal-server-error/Impl/unhandled.exception";
-import { KyselyService } from "./kysely.service";
 import { DB } from "src/kysely/types";
+import { KyselyService } from "./kysely.service";
 
 @Injectable()
 export class BaseRepository {
@@ -16,18 +16,25 @@ export class BaseRepository {
   }
 
   protected db() {
-    const store = transactionStorage.getStore();
+    const store = asyncLocalStorage.getStore();
 
     if (isEmpty(store)) {
-      throw new UnhandledException("서버 에러가 발생하였습니다.", `${KYSELY_TRANSACTION_MANAGER}-store is not active`);
+      throw new UnhandledException(
+        "서버 에러가 발생하였습니다.",
+        `${STORAGE_CONST.KYSELY_TRANSACTION_MANAGER}-store is not active`,
+      );
     }
 
-    const connection: Kysely<DB> = (store.get(KYSELY_TRANSACTION_MANAGER) as Kysely<DB>) ?? this.kdb;
+    const isTransactional: boolean = store.get(STORAGE_CONST.KYSELY_TRANSACTION_APPLY_MANAGER) as boolean;
+
+    const connection: Kysely<DB> = isTransactional
+      ? (store.get(STORAGE_CONST.KYSELY_TRANSACTION_MANAGER) as Kysely<DB>)
+      : this.kdb;
 
     if (isEmpty(connection)) {
       throw new UnhandledException(
         "서버 에러가 발생하였습니다.",
-        `${KYSELY_TRANSACTION_MANAGER}-connection is not active`,
+        `${STORAGE_CONST.KYSELY_TRANSACTION_MANAGER}-connection is not active`,
       );
     }
 

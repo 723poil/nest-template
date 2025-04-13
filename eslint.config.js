@@ -46,6 +46,7 @@ module.exports = [
       "@typescript-eslint/no-unsafe-return": "off",
       "@typescript-eslint/no-floating-promises": "off",
       "@typescript-eslint/unbound-method": "off",
+      "@typescript-eslint/no-namespace": "off",
     },
   }),
 ];

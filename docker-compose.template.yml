@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  blue:
+    container_name: template_blue
+    image: ${CI_DOCKER_REGISTRY}/${MODE}-nest-template:latest
+    ports:
+      - ${BLUE_PORT}:3001
+    networks:
+      - bridge
+    environment:
+      TZ: Asia/Seoul
+    restart: always
+    volumes:
+      - ${DOMAIN_LOG_PATH}:/usr/src/app/logs
+      - ${DEV_RES_PATH}:${DEV_RES_PATH}
+
+networks:
+  bridge:
+    driver: bridge

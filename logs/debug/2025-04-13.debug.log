@@ -1,0 +1,350 @@
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [NestFactory] Starting Nest application...
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [RoutesResolver] AppController {/}:
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 41587  2025. 4. 13. 오후 2:17:15     LOG [NestApplication] Nest application successfully started
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [NestFactory] Starting Nest application...
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [RoutesResolver] AppController {/}:
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 78829  2025. 4. 13. 오후 3:03:59     LOG [NestApplication] Nest application successfully started
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [NestFactory] Starting Nest application...
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [RoutesResolver] AppController {/}:
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 78970  2025. 4. 13. 오후 3:04:08     LOG [NestApplication] Nest application successfully started
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [NestFactory] Starting Nest application...
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [RoutesResolver] AppController {/}:
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 79043  2025. 4. 13. 오후 3:04:09     LOG [NestApplication] Nest application successfully started
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [NestFactory] Starting Nest application...
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [RoutesResolver] AppController {/}:
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 79113  2025. 4. 13. 오후 3:04:11     LOG [NestApplication] Nest application successfully started
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [NestFactory] Starting Nest application...
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [RoutesResolver] AppController {/}:
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 79361  2025. 4. 13. 오후 3:04:21     LOG [NestApplication] Nest application successfully started
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [NestFactory] Starting Nest application...
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [RoutesResolver] AppController {/}:
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 79567  2025. 4. 13. 오후 3:04:32     LOG [NestApplication] Nest application successfully started
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [NestFactory] Starting Nest application...
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [RoutesResolver] AppController {/}:
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 79658  2025. 4. 13. 오후 3:04:35     LOG [NestApplication] Nest application successfully started
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [NestFactory] Starting Nest application...
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [RoutesResolver] AppController {/}:
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 80188  2025. 4. 13. 오후 3:05:16     LOG [NestApplication] Nest application successfully started
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [NestFactory] Starting Nest application...
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [RoutesResolver] AppController {/}:
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 80302  2025. 4. 13. 오후 3:05:21     LOG [NestApplication] Nest application successfully started
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [NestFactory] Starting Nest application...
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [RoutesResolver] AppController {/}:
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 80367  2025. 4. 13. 오후 3:05:23     LOG [NestApplication] Nest application successfully started
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [NestFactory] Starting Nest application...
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [RoutesResolver] AppController {/}:
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 80902  2025. 4. 13. 오후 3:06:07     LOG [NestApplication] Nest application successfully started
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [NestFactory] Starting Nest application...
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [RoutesResolver] AppController {/}:
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 81555  2025. 4. 13. 오후 3:06:59     LOG [NestApplication] Nest application successfully started
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [NestFactory] Starting Nest application...
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [RoutesResolver] AppController {/}:
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 81933  2025. 4. 13. 오후 3:07:28     LOG [NestApplication] Nest application successfully started
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [NestFactory] Starting Nest application...
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [RoutesResolver] AppController {/}:
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 82047  2025. 4. 13. 오후 3:07:33     LOG [NestApplication] Nest application successfully started
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [NestFactory] Starting Nest application...
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [RoutesResolver] AppController {/}:
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 82304  2025. 4. 13. 오후 3:07:51     LOG [NestApplication] Nest application successfully started
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [NestFactory] Starting Nest application...
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [RoutesResolver] AppController {/}:
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 84069  2025. 4. 13. 오후 3:10:20     LOG [NestApplication] Nest application successfully started
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [NestFactory] Starting Nest application...
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [RoutesResolver] AppController {/}:
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 85756  2025. 4. 13. 오후 3:12:34     LOG [NestApplication] Nest application successfully started
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [NestFactory] Starting Nest application...
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:16     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 88300  2025. 4. 13. 오후 3:13:17     LOG [RoutesResolver] AppController {/}:
+[local] 88300  2025. 4. 13. 오후 3:13:17     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 88300  2025. 4. 13. 오후 3:13:17     LOG [NestApplication] Nest application successfully started
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [NestFactory] Starting Nest application...
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [RoutesResolver] AppController {/}:
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 90327  2025. 4. 13. 오후 3:13:35     LOG [NestApplication] Nest application successfully started
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [NestFactory] Starting Nest application...
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [RoutesResolver] AppController {/}:
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 92520  2025. 4. 13. 오후 3:13:55     LOG [NestApplication] Nest application successfully started
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [NestFactory] Starting Nest application...
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [RoutesResolver] AppController {/}:
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 92868  2025. 4. 13. 오후 3:14:21     LOG [NestApplication] Nest application successfully started
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [NestFactory] Starting Nest application...
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [RoutesResolver] AppController {/}:
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 93031  2025. 4. 13. 오후 3:14:31     LOG [NestApplication] Nest application successfully started
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [NestFactory] Starting Nest application...
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [RoutesResolver] AppController {/}:
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 93137  2025. 4. 13. 오후 3:14:36     LOG [NestApplication] Nest application successfully started
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [NestFactory] Starting Nest application...
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] CoreModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] PassportModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] HttpModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] ConfigHostModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] AppModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] ConfigModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] DatabaseModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] JwtModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [InstanceLoader] AuthModule dependencies initialized
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [RoutesResolver] AppController {/}:
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [RouterExplorer] Mapped {/favicon.ico, GET} route
+[local] 93575  2025. 4. 13. 오후 3:15:10     LOG [NestApplication] Nest application successfully started

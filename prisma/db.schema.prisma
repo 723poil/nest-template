@@ -1,0 +1,150 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator kysely {
+  provider     = "prisma-kysely"
+  output       = "../src/kysely"
+  camelCase    = "false"
+  enumFileName = "enums.ts"
+  fileName     = "types.ts"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DB_URL")
+}
+
+model friends {
+  friend_id                        Int
+  member_id                        Int
+  created_at                       DateTime  @db.DateTime(0)
+  deleted_at                       DateTime? @db.DateTime(0)
+  updated_at                       DateTime? @db.DateTime(0)
+  member_friends_member_idTomember member    @relation("friends_member_idTomember", fields: [member_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FKh67aulblum1h1m1yri189psgm")
+  member_friends_friend_idTomember member    @relation("friends_friend_idTomember", fields: [friend_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FKirkmx9dwtl2ovtm4oyun22iof")
+
+  @@id([friend_id, member_id])
+  @@index([member_id], map: "FKh67aulblum1h1m1yri189psgm")
+}
+
+model game {
+  distance        Decimal       @default(0.000) @db.Decimal(6, 3)
+  game_id         Int           @id @default(autoincrement())
+  time_limit      Int
+  created_at      DateTime      @db.DateTime(0)
+  deleted_at      DateTime?     @db.DateTime(0)
+  start_time      DateTime?     @db.DateTime(0)
+  updated_at      DateTime?     @db.DateTime(0)
+  progress_status String        @default("MATCHING") @db.Char(30)
+  type            String        @default("DEFAULT") @db.Char(30)
+  game_player     game_player[]
+}
+
+model game_player {
+  avg_speed       Decimal           @default(0.000) @db.Decimal(6, 3)
+  distance        Decimal           @default(0.000) @db.Decimal(6, 3)
+  game_id         Int
+  max_speed       Decimal           @default(0.000) @db.Decimal(6, 3)
+  member_id       Int
+  created_at      DateTime          @db.DateTime(0)
+  deleted_at      DateTime?         @db.DateTime(0)
+  updated_at      DateTime?         @db.DateTime(0)
+  finished_time   String?           @db.VarChar(8)
+  player_status   String            @default("WAITING_TO_PARTICIPATE") @db.Char(30)
+  result_status   String            @default("UNDECIDED") @db.Char(30)
+  member          member            @relation(fields: [member_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FK84xtgvnwjokkwg9glg1xbxbve")
+  game            game              @relation(fields: [game_id], references: [game_id], onDelete: NoAction, onUpdate: NoAction, map: "FK8so14tnd5mqdjqabugc0cycxu")
+  geo_coordinates geo_coordinates[]
+
+  @@id([game_id, member_id])
+  @@index([member_id], map: "FK84xtgvnwjokkwg9glg1xbxbve")
+}
+
+model geo_coordinates {
+  distance    Decimal     @default(0.000) @db.Decimal(6, 3)
+  game_id     Int
+  latitude    Decimal     @default(0.000000) @db.Decimal(9, 6)
+  longitude   Decimal     @default(0.000000) @db.Decimal(9, 6)
+  member_id   Int
+  created_at  DateTime    @db.DateTime(0)
+  deleted_at  DateTime?   @db.DateTime(0)
+  updated_at  DateTime?   @db.DateTime(0)
+  time        String      @db.VarChar(8)
+  game_player game_player @relation(fields: [game_id, member_id], references: [game_id, member_id], onDelete: NoAction, onUpdate: NoAction, map: "FK2xd5lo039hg2wblj5buh4ti5t")
+
+  @@id([game_id, member_id, time])
+}
+
+model member {
+  member_id                                              Int                @id @default(autoincrement())
+  created_at                                             DateTime           @db.DateTime(0)
+  deleted_at                                             DateTime?          @db.DateTime(0)
+  last_active_at                                         DateTime           @default(now()) @db.DateTime(0)
+  updated_at                                             DateTime?          @db.DateTime(0)
+  member_code                                            String             @unique(map: "UKhr7uduf2w8ho5jymgu9brrjq4") @db.VarChar(6)
+  nickname                                               String             @db.VarChar(20)
+  profile_image_url                                      String             @db.Text
+  social_id                                              String             @db.VarChar(50)
+  member_status                                          String             @default("ACTIVE") @db.Char(30)
+  social_provider                                        String             @db.VarChar(10)
+  friends_friends_member_idTomember                      friends[]          @relation("friends_member_idTomember")
+  friends_friends_friend_idTomember                      friends[]          @relation("friends_friend_idTomember")
+  game_player                                            game_player[]
+  member_fcm_token                                       member_fcm_token[]
+  member_report_member_report_reported_member_idTomember member_report[]    @relation("member_report_reported_member_idTomember")
+  member_report_member_report_reporter_idTomember        member_report[]    @relation("member_report_reporter_idTomember")
+  member_term                                            member_term[]
+}
+
+model member_fcm_token {
+  member_id  Int
+  created_at DateTime  @db.DateTime(0)
+  deleted_at DateTime? @db.DateTime(0)
+  updated_at DateTime? @db.DateTime(0)
+  token      String    @db.VarChar(255)
+  member     member    @relation(fields: [member_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FK1t32tfi2x0x2xl8te76jm3q2u")
+
+  @@id([member_id, token])
+}
+
+model member_report {
+  reported_member_id                              Int?
+  reporter_id                                     Int?
+  created_at                                      DateTime  @db.DateTime(0)
+  deleted_at                                      DateTime? @db.DateTime(0)
+  report_id                                       BigInt    @id @default(autoincrement())
+  updated_at                                      DateTime? @db.DateTime(0)
+  member_member_report_reported_member_idTomember member?   @relation("member_report_reported_member_idTomember", fields: [reported_member_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FK973oqd6um5es0fm85rh16n09o")
+  member_member_report_reporter_idTomember        member?   @relation("member_report_reporter_idTomember", fields: [reporter_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FKqh59qob6qgguicgk6pocuiw9p")
+
+  @@index([reported_member_id], map: "FK973oqd6um5es0fm85rh16n09o")
+  @@index([reporter_id], map: "FKqh59qob6qgguicgk6pocuiw9p")
+}
+
+model member_term {
+  is_agree   Boolean   @default(false)
+  member_id  Int
+  term_id    Int
+  created_at DateTime  @db.DateTime(0)
+  deleted_at DateTime? @db.DateTime(0)
+  updated_at DateTime? @db.DateTime(0)
+  term       term      @relation(fields: [term_id], references: [term_id], onDelete: NoAction, onUpdate: NoAction, map: "FK99valiqden00uing9dy6221uy")
+  member     member    @relation(fields: [member_id], references: [member_id], onDelete: NoAction, onUpdate: NoAction, map: "FKrtih56dvkore774vnao4lglic")
+
+  @@id([member_id, term_id])
+  @@index([term_id], map: "FK99valiqden00uing9dy6221uy")
+}
+
+model term {
+  is_active   Boolean       @default(true)
+  required    Boolean       @default(false)
+  term_id     Int           @id @default(autoincrement())
+  created_at  DateTime      @db.DateTime(0)
+  deleted_at  DateTime?     @db.DateTime(0)
+  updated_at  DateTime?     @db.DateTime(0)
+  description String?       @db.VarChar(100)
+  term_url    String?       @db.Text
+  term_type   String        @db.VarChar(100)
+  member_term member_term[]
+}

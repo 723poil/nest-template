@@ -1,41 +1,40 @@
+import { isEmpty } from "class-validator";
 import { camelCase, mapKeys, snakeCase } from "lodash";
 
-export const toCamelCaseObj = <T>(obj: any): T => {
-  if (obj === null || typeof obj !== "object") {
-    return obj;
+export function toCamelCase<T>(obj: object): T;
+export function toCamelCase<T>(obj: object[]): T[];
+
+export function toCamelCase<T>(obj: object | object[]): T | T[] {
+  const toCamelCaseObj = <T>(obj: object): T => {
+    if (isEmpty(obj) || typeof obj !== "object") {
+      return undefined;
+    }
+
+    return mapKeys(obj, (_, key) => camelCase(key)) as T;
+  };
+
+  if (Array.isArray(obj)) {
+    return obj.map(toCamelCaseObj<T>);
   }
 
-  return mapKeys(obj, (_, key) => camelCase(key)) as T;
-};
+  return toCamelCaseObj<T>(obj);
+}
 
-export const toCamelCaseArray = <T>(array: any[]): T[] => {
-  return array.map(toCamelCaseObj<T>);
-};
+export function toSnakeCase<T>(obj: object): T;
+export function toSnakeCase<T>(obj: object[]): T[];
 
-export const toCamelCase = <T>(value: any | any[]): T | T[] => {
-  if (Array.isArray(value)) {
-    return toCamelCaseArray<T>(value);
+export function toSnakeCase<T>(obj: object | object[]): T | T[] {
+  const toSnakeCaseObj = <T>(obj: object): T => {
+    if (isEmpty(obj) || typeof obj !== "object") {
+      return undefined;
+    }
+
+    return mapKeys(obj, (_, key) => snakeCase(key)) as T;
+  };
+
+  if (Array.isArray(obj)) {
+    return obj.map(toSnakeCaseObj<T>);
   }
 
-  return toCamelCaseObj<T>(value);
-};
-
-export const toSnakeCaseObj = <T>(obj: T): any => {
-  if (obj === null || typeof obj !== "object") {
-    return obj;
-  }
-
-  return mapKeys(obj, (_, key) => snakeCase(key)) as T;
-};
-
-export const toSnakeCaseArray = <T>(array: T[]): any[] => {
-  return array.map(toSnakeCaseObj<T>);
-};
-
-export const toSnakeCase = <T>(value: T | T[]): any | any[] => {
-  if (Array.isArray(value)) {
-    return toSnakeCaseArray<T>(value);
-  }
-
-  return toSnakeCaseObj<T>(value);
-};
+  return toSnakeCaseObj<T>(obj);
+}
